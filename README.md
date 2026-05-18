@@ -8,8 +8,8 @@ Este projeto aplica conceitos avançados de **Big Data** e **Deep Learning** par
 
 ## 🚀 Funcionalidades do Projeto
 
-* **Pipeline de Big Data Automatizado:** Processamento robusto de dados categóricos de alta cardinalidade utilizando `OneHotEncoder` e `ColumnTransformer`.
-* **Modelo Preditivo Estabilizado:** Rede neural multicamadas otimizada com o algoritmo `RMSprop` e técnicas de regularização (`Dropout`) para evitar *overfitting*.
+* **Pipeline de Big Data Automatizado:** Processamento robusto de dados categóricos de alta cardinalidade utilizando `OneHotEncoder`.
+* **Modelo Preditivo Estabilizado:** Rede neural multicamadas otimizada com o algoritmo `RMSprop` e técnicas de regularização (`Dropout`) para evitar que o modelo *decore os dados*.
 * **Simulador de Cenários Futuros:** Função integrada para predição de salários de novos perfis profissionais baseando-se em tendências temporais.
 * **Análise Comparativa de Mercado (Duelo de Valorização):** Projeção visual comparando o crescimento das duas maiores carreiras do setor (Data Scientist vs. Data Engineer) para os próximos anos.
 
@@ -35,12 +35,12 @@ Este projeto aplica conceitos avançados de **Big Data** e **Deep Learning** par
 
 ## 📈 Resultados obtidos
 
-### 1. Evolução do Aprendizado (Convergência)
-O modelo demonstrou uma curva de aprendizado extremamente saudável e otimizada pelo ajuste de processamento em lotes (`batch_size=256`).
+### 1. Evolução do Aprendizado
+O modelo exibiu uma curva de aprendizado extremamente saudável e otimizada pelo ajuste de processamento em lotes (`batch_size=256`).
 
 * **Métrica de Erro:** Erro Médio Absoluto (MAE).
 * **Erro Médio Final:** **~$42,389.36** por salário.
-* **Análise Técnica:** O erro residual representa a variância natural e não observada do mercado de tecnologia (fatores como stacks tecnológicas específicas, bônus corporativos e flutuações de ações). As curvas de Treino e Validação convergiram perfeitamente de forma síncrona, eliminando qualquer indício de *overfitting* ou *underfitting*.
+* **Análise Técnica:** O erro residual representa a variância natural e não observada do mercado de tecnologia (fatores como stacks tecnológicas específicas, bônus corporativos e flutuações de ações). As curvas de Treino e Validação convergiram perfeitamente de forma síncrona, eliminando qualquer indício de que o modelo *decorou os dados* ou *não aprendeu com eles*.
 
 ### 2. Projeção de Mercado: Data Scientist vs. Data Engineer (2024 - 2027)
 Ao interrogar o modelo para simular profissionais de nível Sênior atuando nos Estados Unidos em modelo Remoto, a inteligência artificial revelou os seguintes insights:
@@ -65,4 +65,4 @@ Ao interrogar o modelo para simular profissionais de nível Sênior atuando nos 
 ## 👥 Autores e Desenvolvimento
 
 * **Desenvolvedor:** Davi Miguel da Rocha Lima
-* **Contexto:** Projeto Prático de Big Data e Sistemas Preditivos.
+* **Contexto:** Projeto Prático de Big Data e Sistemas Preditivos da aula de tópicos de bigData em python.
